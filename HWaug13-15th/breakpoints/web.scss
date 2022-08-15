@@ -1,0 +1,36 @@
+.title-wrapper {
+    text-align: left;
+    margin-left: 3%;
+
+    & h1 {
+        font-size: 75px;
+    }
+
+    & p {
+        font-size: 50px;
+    }
+}
+
+.articles-wrapper {
+        display: grid;
+        grid-template-rows: 500px 500px;
+        grid-template-columns: 33% 33% 33%;
+        column-gap: 3%;
+
+        & h2 {
+            font-size: 30px;
+            line-height: 35px;
+            top: 41%;
+        }
+
+        & .article-wrapper {
+
+            & p {
+            line-height: 18px;
+    
+            @media screen and (min-width: 1200px) {
+                line-height: 25px;
+            }
+        }
+    }
+    }

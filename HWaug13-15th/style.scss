@@ -1,0 +1,10 @@
+@import 'breakpoints/mobile';
+
+
+@media (min-width: 520px) and (max-width: 959px)  {
+    @import "breakpoints/tablet";
+  }
+
+  @media (min-width: 960px) {
+    @import "breakpoints/web";
+}

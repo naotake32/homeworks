@@ -1,0 +1,35 @@
+.title-wrapper {
+    & h1 {
+        font-size: 50px;
+    }
+
+    & p {
+        font-size: 35px;
+    }
+}
+
+.articles-wrapper {
+    display: grid;
+    grid-template-rows: 500px/500px;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+
+    & h2 {
+        font-size: 25px;
+        top: 40%;
+        line-height: 35px;
+        top: 41%;
+    }
+
+    & .article-wrapper {
+
+        & p {
+        line-height: 15px;
+
+        @media screen and (min-width: 880px) {
+            line-height: 25px;
+        }
+    }
+        
+    }
+}

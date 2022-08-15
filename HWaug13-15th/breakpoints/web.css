@@ -1,0 +1,40 @@
+.title-wrapper {
+  text-align: left;
+  margin-left: 3%;
+}
+
+.title-wrapper h1 {
+  font-size: 75px;
+}
+
+.title-wrapper p {
+  font-size: 50px;
+}
+
+.articles-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 500px 500px;
+      grid-template-rows: 500px 500px;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  -webkit-column-gap: 3%;
+          column-gap: 3%;
+}
+
+.articles-wrapper h2 {
+  font-size: 30px;
+  line-height: 35px;
+  top: 41%;
+}
+
+.articles-wrapper .article-wrapper p {
+  line-height: 18px;
+}
+
+@media screen and (min-width: 1200px) {
+  .articles-wrapper .article-wrapper p {
+    line-height: 25px;
+  }
+}
+/*# sourceMappingURL=web.css.map */
